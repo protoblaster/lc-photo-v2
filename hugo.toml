@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Leathercraft Customs'
+
+sectionPagesMenu = 'main'
+
+[params]
+    [params.author_details]
+        name = 'Leathercraft Customs'
+        email = 'leathercraft_customs@yahoo.com'
+        insta = '@leathercraft_customs'
+
+    [params.site_information]
+        subtitle = 'Learning HUGO with bootstrap course (Skillshare)'
+        description = 'A beginner introduction for the HUGO SSG. The site uses bootstrap5 for design and custom JavaScript!'
+
+    [params.date_formats]
+        copyright = 'Jan, 2006'
+        posts = '02.01.2006'

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body class="m-0 p-0">
+    <div class="w-100">
+        {{ partial "nav.html" . }}
+    </div>
+    <main class="color-bg-black text-white w-100">
+        <div class="px-4 py-4">
+            {{ partial "header.html" . }}
+            {{ block "main" . }}{{ end }}
+        </div>
+    </main>
+    <div class="w-100">
+        {{ partial "footer.html" . }}
+    </div>
+
+    {{ partial "scripts.html" . }}
+</body>
+</html>
